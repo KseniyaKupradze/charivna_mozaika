@@ -1,0 +1,398 @@
+  html, body, div, span, applet, object, iframe,
+					h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+					a, abbr, acronym, address, big, cite, code,
+					del, dfn, em, img, ins, kbd, q, s, samp,
+					small, strike, strong, sub, sup, tt, var,
+					b, u, i, center,
+					dl, dt, dd, ol, ul, li,
+					fieldset, form, label, legend,
+					table, caption, tbody, tfoot, thead, tr, th, td,
+					article, aside, canvas, details, embed, 
+					figure, figcaption, footer, header, hgroup, 
+					menu, nav, output, ruby, section, summary,
+					time, mark, audio, video {
+						margin: 0;
+						padding: 0;
+						border: 0;
+						font-size: 100%;
+						font: inherit;
+						vertical-align: baseline;
+					}
+					/* HTML5 display-role reset for older browsers */
+					article, aside, details, figcaption, figure, 
+					footer, header, hgroup, menu, nav, section {
+						display: block;
+					}
+					body {
+						line-height: 1;
+					}
+					ol, ul {
+						list-style: none;
+					}
+					blockquote, q {
+						quotes: none;
+					}
+					blockquote:before, blockquote:after,
+					q:before, q:after {
+						content: '';
+						content: none;
+					}
+					table {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+			         label{
+					cursor:pointer;
+
+				     }
+				/*  reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap');
+  
+
+  /*Main*/
+	    body{
+	 
+		 }
+		a{
+		text-decoration: none;
+		cursor: pointer;
+			}
+
+		.wrapper{
+			max-width: 1920px;
+			margin: 0 auto;
+			font-family:'Noto Sans JP', sans-serif;
+		 }
+			 .container{
+			 	max-width: 1020px;
+			 	margin: 0 auto;
+			 }
+
+  /*Header*/	 
+
+   	 .header{
+		  display: flex;
+	    justify-content: space-between;
+	    padding: 10px;
+		 }
+
+	     .contacts{
+		  font-size: 18px;
+		  color: #959595;
+		  }
+			   	.telephone{
+			   		  margin-bottom: 13px;
+			   	}
+			    .telephone:before {
+			    content: url(img/tel.png);
+			    width: 30px;
+			    height: 30px;
+			    margin-left: 10px;
+			    margin-right: 8px;
+			     }
+			     .mail:before {
+			    content: url(img/mail.png);
+			    width: 30px;
+			    height: 30px;
+			    margin-right: 10px;
+			     }
+
+	     .logo{
+	     	z-index: 10;
+	     	text-align: center;
+	     	background-color: white;
+	     	width: 180px;
+	     	height: 180px;
+	     	border-radius:180px;
+	      }
+
+	     .nav{
+		  font-size: 18px;
+		  color: #959595;
+		  border-bottom: 2px #65BAAF solid;
+		  height: 30px;		
+		  margin-top: 10px;		   	
+	      }
+		      .inp{
+		     	border: none;
+		     	width: 200px;
+		     	outline:none;
+		      }	
+		     	.magnifier {
+		     	background: none;
+		     	border: none;
+		     	cursor: pointer;
+			    width: 40px;
+			    height: 40px;
+			    margin-left:-130px;
+			     }
+
+
+/*Menu*/
+
+  .menu{
+  	max-width: 1020px;
+  	font-size: 16px;
+    color:#424242;
+    margin-top: -100px;
+    display: flex;
+  }
+	  .menu ul{
+	  	margin: 0 auto;
+		display: flex;
+	    padding: 15px;
+	    justify-content: flex-start;
+	  }
+
+	  .menu li{
+	  	white-space:pre;
+	  	margin: 5px;
+	  } 
+	  	.li_left{
+	  		padding-right: 210px;
+	  	}
+	  
+    
+
+/*Slider*/
+
+	  .sweets-slider{
+	  	background-color: #E8F4F3;
+	  	min-height: 670px;
+	  	text-align: center;
+	  	}
+
+	 .sweets-slider #show-prev{
+	
+	 	position: absolute;
+	 	margin-top: 350px;
+    margin-left: 20px;
+    border: none;
+    font-size: 150px;
+    background: transparent;
+	 } 
+	 .sweets-slider #show-next{
+
+	 	position: absolute;
+	 	margin-top: 350px;
+    margin-left: -120px;
+    border: none;
+    font-size: 150px;
+    background: transparent;
+	 } 		
+ .name_slider{
+   font-size: 50px;
+   font-family:Lucida Sans Unicode;
+   color: white;
+   text-shadow: 5px 1px 2px grey, 0 0 1em blue;
+   position: absolute;
+   margin-top: -680px;
+   margin-left: 500px;
+ }
+ .slogan{
+ 	font-size: 40px;
+ 	max-width: 850px;
+ 	font-family:Comic Sans MS; 
+ 	 color: white;
+   text-shadow: 5px 1px 2px black, 0 0 1em grey;
+   position: absolute;
+   margin-top: -280px;
+   margin-left: 540px;
+ }
+
+/* Welcome*/
+
+ .welcome{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	border-bottom: grey solid 2px;
+ }
+	 .welcome_p{
+	 			font-size: 25px;
+	 			color: #959595;
+	 			text-align: center;
+	 			padding: 20px;
+	 		}
+	 	.logo1{
+	 		font-size: 50px;
+	 		text-align: center;
+	 		padding: 30px;
+	 		color: #65BAAF;
+	 		font-family: Segoe Print;
+	 		background-image: url(img/decor-line.png);
+	 	  height: 44px;
+      width: 390px;
+
+	 	}
+
+	 /*production*/
+
+	 .production{
+  	text-align: center;
+	 }
+	 	.production-h2{
+	 		margin: 20px;
+	 		color: #65BAAF;
+	 		font-family: Segoe Print;
+	 		font-size: 35px;
+	 	}
+	 		.book{
+	 			display: flex;
+	 		}
+	 		.tiger{
+	 			margin-top: 110px;
+	 			margin-left: 50px;
+	 			text-align: center;
+	 			font-size: 20px;
+	 			color: #959595;
+	 		}
+			.tiger:before{
+	    	content:url(img/new.png); 
+	    	width: 30px;
+	    	height: 30px;}
+
+
+/*advantage*/
+ 
+
+  .advantage{
+	 	text-align: center;
+	 	margin-top: 20px;
+	 	background-color: #E8F4F3;
+
+  }
+  	.advantage-h2{
+  		margin: 20px;
+	 		color: #65BAAF;
+	 		font-family: Segoe Print;
+	 		font-size: 35px;
+  	}
+  	.advantage-ul{
+  		display: flex;
+  		justify-content: space-between;
+  		color: #915B27;
+  	}
+  	.advantage-ul li{
+  			margin: 60px;
+  			font-size: 20px;
+  		}
+  		.advantage-ul img{
+  			margin: 30px;
+  		}
+  		
+
+
+  	/*about_us*/
+
+	  	.about_us{
+	  		text-align: center;
+	  		margin-top: 20px;
+	  	}
+	  		.about_us-h2{
+	  		margin: 20px;
+		 		color: #65BAAF;
+		 		font-family: Segoe Print;
+		 		font-size: 35px;
+	  		}
+	  		.about_us-container{
+	  			display: flex;
+	  			justify-content: center;
+	  		}
+	  		.img_cheese{
+	  			margin:  100px 210px 0px 270px;
+	  		}
+	  		.img_flour{
+	  			margin:-150px 20px 0px 80px;
+	  		}
+
+  		/*magical_life*/
+
+	  		.magical_life{
+	  		text-align: center;
+	  		margin-top: 20px;
+	  	   }
+	  		.magical_life-h2{
+	  		margin: 20px;
+		 		color: #65BAAF;
+		 		font-family: Segoe Print;
+		 		font-size: 35px;
+	  		}
+	  		.magical_life-container{
+	  			display: flex;
+	  			justify-content:space-between;
+	  		}
+	  		 .magical_life-container a{
+	  		 	margin: 30px;
+	  		 }
+	  			.news{
+	  			font-size: 25px;
+	  			color: #7D7D7D;
+	  			}
+	  			 	.news img{
+
+	  			 		width: 180px;
+					    height: 120px;
+					    border: 5px solid #67BBAF;
+	  			 	}
+	  			 	.news h3{
+	  			 		margin: 15px;
+	  			 		color: #CAA977;
+	  			 		font-size: 40px;
+	  			 	}
+
+	  /* form*/
+     .form_container{
+     	background-image: url(img/map.png);
+     }
+	  .form{
+	  	width: 280px;
+	  	height: 508px;
+	  	background-image: url(img/fon_form.png);
+	  	text-align: center;
+	  	padding: 30px;
+	  	font-size: 20px;
+	  	color: white;
+	  	text-shadow: 3px 5px 6px grey;
+	  	margin-top: 50px;
+	  	margin-left: 450px;
+	  }
+	    .legend_fieldset{
+	     padding: 30px;
+	    	}
+	    .label_form{
+       margin: 30px;
+	    }
+	      .p_form{
+	      	font-size: 15px;
+	      	padding-top: 30px;	      }
+
+
+
+/*connect*/
+
+.connect{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 30px;
+}
+.connect_h4{
+	font-size: 40px;
+	margin: 20px;
+	color: #C8A674;
+}
+.connect p{
+	margin: 20px;
+	color: #7D7D7D;}
+      .connect_p1:before{
+	    	content:url(img/connect_p1.png); 
+	    	padding: 10px;
+	    	}
+      .connect_p2:before{
+	    	content:url(img/connect_p2.png); 
+	    	padding: 10px;
+	    	}
+	  	.connect_p3:before{
+	    	content:url(img/connect_p3.png); 
+	    	padding: 10px;
+	    	}
